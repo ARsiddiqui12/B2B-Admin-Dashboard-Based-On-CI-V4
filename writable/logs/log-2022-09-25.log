@@ -1,0 +1,124 @@
+CRITICAL - 2022-09-25 21:14:12 --> Call to a member function query() on null
+in APPPATH/Controllers/Login.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 21:14:27 --> Call to a member function query() on null
+in APPPATH/Controllers/Login.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 21:18:33 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email_ad...', 0)
+#1 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email_ad...')
+#2 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email_ad...')
+#3 /home/multiplan/cloudtravel.multiplan.ie/app/Controllers/Login.php(24): CodeIgniter\Database\BaseConnection->query('SELECT email_ad...')
+#4 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+#5 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/multiplan/cloudtravel.multiplan.ie/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-25 21:18:33 --> Call to a member function getNumRows() on bool
+in APPPATH/Controllers/Login.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 21:20:03 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /home/multiplan/cloudtravel.multiplan.ie/app/Controllers/Login.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+#5 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/multiplan/cloudtravel.multiplan.ie/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-25 21:20:03 --> Call to a member function getNumRows() on bool
+in APPPATH/Controllers/Login.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 21:20:40 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /home/multiplan/cloudtravel.multiplan.ie/app/Controllers/Login.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+#5 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/multiplan/cloudtravel.multiplan.ie/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-25 21:20:40 --> Call to a member function getNumRows() on bool
+in APPPATH/Controllers/Login.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 21:21:00 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /home/multiplan/cloudtravel.multiplan.ie/app/Controllers/Login.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+#5 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/multiplan/cloudtravel.multiplan.ie/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-25 21:21:00 --> Call to a member function getNumRows() on bool
+in APPPATH/Controllers/Login.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 21:23:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'multiplan@live.com''' at line 1 in /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /home/multiplan/cloudtravel.multiplan.ie/app/Controllers/Login.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+#5 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/multiplan/cloudtravel.multiplan.ie/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-25 21:23:25 --> Call to a member function getNumRows() on bool
+in APPPATH/Controllers/Login.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-25 21:23:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'multiplan@live.com''' at line 1 in /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /home/multiplan/cloudtravel.multiplan.ie/app/Controllers/Login.php(24): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+#5 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/multiplan/cloudtravel.multiplan.ie/vendor/codeigniter4/framework/system/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/multiplan/cloudtravel.multiplan.ie/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-25 21:23:47 --> Call to a member function getNumRows() on bool
+in APPPATH/Controllers/Login.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Login->CheckAuth()
+ 2 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-25 22:12:41 --> syntax error, unexpected 'l' (T_STRING)
+in APPPATH/Controllers/Dashboard.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Dashboard.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(860): class_exists('\\App\\Controllers\\Dashboard', true)
+ 6 SYSTEMPATH/CodeIgniter.php(447): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

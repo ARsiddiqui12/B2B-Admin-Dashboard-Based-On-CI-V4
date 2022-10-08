@@ -1,0 +1,11 @@
+CRITICAL - 2022-09-30 12:57:58 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/b2b_customers_list_view.php on line 348.
+ 1 APPPATH/Views/b2b_customers_list_view.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/b2b_customers_list_view.php', 348, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/b2b_customers_list_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('b2b_customers_list_view', [], true)
+ 5 APPPATH/Controllers/Businesstobusiness.php(172): view('b2b_customers_list_view', [])
+ 6 SYSTEMPATH/CodeIgniter.php(910): App\Controllers\Businesstobusiness->B2bCustomerProfile()
+ 7 SYSTEMPATH/CodeIgniter.php(460): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Businesstobusiness))
+ 8 SYSTEMPATH/CodeIgniter.php(343): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
